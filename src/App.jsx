@@ -3,8 +3,9 @@ import Nav from "./components/Nav";
 const App = () => {
   return (
     <main className='relative'>
-      <Nav />
-      <section className="padding bg-slate-500 w-full">
+      {/* pamietac zeby nie dawac wysokosci na sztywno */}
+      <section className="padding bg-slate-500 bg-hero w-full h-[500px]">
+        <Nav />
         <Hero />
       </section>
       <section className='padding'>

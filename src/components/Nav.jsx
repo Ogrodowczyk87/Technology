@@ -3,10 +3,10 @@ import { navLinks } from '../constants';
 
 const Nav = () => {
     return (
-        <header>
+        <header className="h-[100px]">
             <nav >
                 <ul className='flex justify-center gap-20 
-                items-center m-[20px]'>
+                items-center p-[30px]'>
                     {navLinks.map((item) => (
                         <li key={item.label}>{item.label}</li>
                     ))}
