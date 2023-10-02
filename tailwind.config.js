@@ -24,10 +24,9 @@ export default {
       colors: {
         primary: "grey",
       },
-      // backgroundImage: {
-      //   'hero': "url('assets/images/collection-background.svg')",
-      //   'card': "url('assets/images/thumbnail-background.svg')",
-      // },
+      backgroundImage: {
+        'hero': "url('assets/images/background.png')",
+      },
     },
   },
   plugins: [],
