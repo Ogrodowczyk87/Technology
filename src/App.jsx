@@ -4,7 +4,7 @@ const App = () => {
   return (
     <main className='relative'>
       {/* pamietac zeby nie dawac wysokosci na sztywno */}
-      <section className="padding bg-slate-500 bg-hero w-full h-[500px]">
+      <section className="padding bg-hero w-full  bg-primary ">
         <Nav />
         <Hero />
       </section>

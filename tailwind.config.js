@@ -22,7 +22,9 @@ export default {
     },
     extend: {
       colors: {
-        primary: "grey",
+        primary: "#042a69",
+        button: "#1d6cef",
+        changeButton: "#3898ec"
       },
       backgroundImage: {
         'hero': "url('assets/images/background.png')",
