@@ -5,3 +5,10 @@ export const navLinks = [
     { href: "#contact-us", label: "Contact" },
     { href: "#contact-us", label: "Pages" }
 ];
+
+
+export const statistic = [
+    { value: '10M', label: 'Clients' },
+    { value: '25+', label: 'Years of experience' },
+    { value: '15k', label: 'Suppliers' }
+]

@@ -1,10 +1,10 @@
-// import { hamburger } from "../assets/icons";
+// import { hamburger } from '../assets/icons';
 import { navLinks } from '../constants';
 // import { labIcon } from "../assets/icons";
 
 const Nav = () => {
     return (
-        <header className="w-full">
+        <header className=' w-full'>
             <nav className='flex justify-between items-center max-container'>
                 <div className='flex text-white'>
                     <img
@@ -25,7 +25,6 @@ const Nav = () => {
                 <div className='hidden max-lg:block'>
                     <img
                         // src={hamburger}
-                        href="../assets/icons/hamburger"
                         alt="hamburger"
                         width={25}
                         height={25}
